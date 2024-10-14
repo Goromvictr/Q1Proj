@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ROG Flow X13</title>
+
+<style>
+    body{
+        background: url(https://dlcdnrog.asus.com/rog/media/1513879391415.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+     border-radius: 15px;
+    }
+    .container2{
+        align-content: center;
+        background-color: whitesmoke;
+        opacity: 1;
+        width: 308px;
+        padding: 10px;
+        margin: auto;
+        box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.8);
+        margin-top: 75px;
+        border-radius: 30px;
+    }
+</style>
+
+</head>
+<body>
+	<div class="container2" style="display: flex; flex-direction: column; align-items: center; padding: 20px; border: 1px solid #ccc; border-radius: 10px; background-color: white;">
+                    <h3 style="font-size: 1.5em; margin: 10px 0; font-family: Adamina;"><b>ROG Flow X13</b></h3>
+                    <img src="https://shop.villman.com/cdn/shop/files/h732_b2d65adb-7e26-4c71-9cdf-c8156d5c684c_800x.png?v=1701322657" style="width: 100%; height: auto; border-radius: 10px;">
+
+                    <p style="font-size: 1.2em; margin: 10px 0; font-family: 'Poppins', sans-serif; color: #28a745;"><b>₱140,403.19</b></p>
+
+<form id="form3">
+                        <div style="margin: 10px 0; width: 100%;">
+                            <label for="specs3">RAM</label>
+                            <select id="specs3" name="specs3" style="width: 100%; margin-top: 5px; padding: 5px;">
+                                <option value="8">8 GB</option>
+                            </select>
+                        </div>
+                        <div style="margin: 10px 0; width: 100%;">
+                            <label for="rom3">ROM</label>
+                            <select id="rom3" name="rom3" style="width: 100%; margin-top: 5px; padding: 5px;">
+                                <option value="1">1 TB</option>
+                            </select>
+                        </div>
+                        <div style="margin: 10px 0; width: 100%;">
+                            <label for="processor3">Processor</label>
+                            <select id="processor3" name="processor3" style="width: 100%; margin-top: 5px; padding: 5px;">
+                                <option value="R9">AMD Ryzen 9 7940HS</option>
+                            </select>
+                        </div>
+                        <div style="margin: 10px 0; width: 100%;">
+                            <label for="graphics3">Graphics</label>
+                            <select id="graphics3" name="graphics3" style="width: 100%; margin-top: 5px; padding: 5px;">
+                                <option value="4080">NVIDIA GeForce RTX 4050 Laptop GPU(194 AI TOPs)</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" id="submit3" name="submit3" 
+                                style="margin-top: 15px; width: 100%;"
+                                onclick="changeButtonText(event, 'submit3');">
+                            Order
+                        </button>
+
+                        <script>
+        function changeButtonText(event, id) {
+            event.preventDefault(); // Prevent form submission
+            document.getElementById(id).innerText = "Ordered";
+        }
+    </script>
+                    </form>
+
+</body>
+</html>

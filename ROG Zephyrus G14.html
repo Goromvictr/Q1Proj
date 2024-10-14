@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ROG Zephyrus G14</title>
+
+<style>
+    body{
+        background: url(https://dlcdnrog.asus.com/rog/media/1513879391415.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+     border-radius: 15px;
+    }
+    .container2{
+        align-content: center;
+        background-color: whitesmoke;
+        opacity: 1;
+        width: 308px;
+        padding: 10px;
+        margin: auto;
+        box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.8);
+        margin-top: 75px;
+        border-radius: 30px;
+    }
+</style>
+
+</head>
+<body>
+	<div class="container2" style="display: flex; flex-direction: column; align-items: center; padding: 20px; border: 1px solid #ccc; border-radius: 10px; background-color: white;">
+                    <h3 style="font-size: 1.5em; margin: 10px 0; font-family: Adamina;"><b>ROG Zephyrus G14</b></h3>
+                    <img src="https://dlcdnwebimgs.asus.com/gain/2C0A9F07-4B24-4A00-B20E-DE7831215DA0/w1000/h732" style="width: 100%; height: auto; border-radius: 10px;">
+
+                    <p style="font-size: 1.2em; margin: 10px 0; font-family: 'Poppins', sans-serif; color: #28a745;"><b>₱124,920.77</b></p>
+
+	<form id="form2">
+                        <div style="margin: 10px 0; width: 100%;">
+                            <label for="specs2">RAM</label>
+                            <select id="specs2" name="specs2" style="width: 100%; margin-top: 5px; padding: 5px;">
+                                <option value="16">16 GB</option>
+                            </select>
+                        </div>
+                        <div style="margin: 10px 0; width: 100%;">
+                            <label for="rom2">ROM</label>
+                            <select id="rom2" name="rom2" style="width: 100%; margin-top: 5px; padding: 5px;">
+                                <option value="1">1 TB</option>
+                            </select>
+                        </div>
+                        <div style="margin: 10px 0; width: 100%;">
+                            <label for="processor2">Processor</label>
+                            <select id="processor2" name="processor2" style="width: 100%; margin-top: 5px; padding: 5px;">
+                                <option value="R9">AMD Ryzen 9 8945HS</option>
+                            </select>
+                        </div>
+                        <div style="margin: 10px 0; width: 100%;">
+                            <label for="graphics2">Graphics</label>
+                            <select id="graphics2" name="graphics2" style="width: 100%; margin-top: 5px; padding: 5px;">
+                                <option value="4050">NVIDIA GeForce RTX 4050 (194 AI TOPs)</option>
+                                <option value="4060">NVIDIA GeForce RTX 4060 (233 AI TOPs)</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" id="submit2" name="submit2" 
+                                style="margin-top: 15px; width: 100%;"
+                                onclick="changeButtonText(event, 'submit2');">
+                            Order
+                        </button>
+
+                        <script>
+        function changeButtonText(event, id) {
+            event.preventDefault(); // Prevent form submission
+            document.getElementById(id).innerText = "Ordered";
+        }
+    </script>
+                    </form>
+
+
+</body>
+</html>

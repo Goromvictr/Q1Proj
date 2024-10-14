@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Asus TUF gaming F15</title>
+
+<style>
+    body{
+        background: url(https://dlcdnrog.asus.com/rog/media/1513879391415.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+     border-radius: 15px;
+    }
+    .container2{
+        align-content: center;
+        background-color: whitesmoke;
+        opacity: 1;
+        width: 308px;
+        padding: 10px;
+        margin: auto;
+        box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.8);
+        margin-top: 115px;
+        border-radius: 30px;
+    }
+</style>
+
+</head>
+<body>
+
+	<div class="container2" style="display: flex; flex-direction: column; align-items: center; padding: 10px; border: 1px solid #ccc; border-radius: 0; background-color: white;">
+                    <h3 style="font-size: 1.5em; margin: 10px 0; font-family: Adamina;"><b>Asus TUF Gaming F15</b></h3>
+                    <img src="https://dlcdnwebimgs.asus.com/gain/47be2296-5fde-4c9b-b262-8c6b8879a020" style="width: 100%; height: auto; border-radius: 10px;">
+
+                    <p style="font-size: 1.2em; margin: 10px 0; font-family: 'Poppins', sans-serif; color: #28a745;"><b>₱50,544.79</b></p>
+
+                    <form id="form1">
+                        <div style="margin: 10px 0; width: 100%;">
+                            <label for="specs1">RAM</label>
+                            <select id="specs1" name="specs1" style="width: 100%; margin-top: 5px; padding: 5px;">
+                                <option value="8">8 GB</option>
+                                <option value="16">16 GB</option>
+                            </select>
+                        </div>
+                        <div style="margin: 10px 0; width: 100%;">
+                            <label for="rom1">ROM</label>
+                            <select id="rom1" name="rom1" style="width: 100%; margin-top: 5px; padding: 5px;">
+                                <option value="512">512 GB</option>
+                                <option value="1">1 TB</option>
+                            </select>
+                        </div>
+                        <div style="margin: 10px 0; width: 100%;">
+                            <label for="processor1">Processor</label>
+                            <select id="processor1" name="processor1" style="width: 100%; margin-top: 5px; padding: 5px;">
+                                <option value="i5-10300H">i5-10300H</option>
+                                <option value="i5-10200H">i5-10200H</option>
+                                <option value="i7-10870H">i7-10870H</option>
+                            </select>
+                        </div>
+                        <div style="margin: 10px 0; width: 100%;">
+                            <label for="graphics1">Graphics</label>
+                            <select id="graphics1" name="graphics1" style="width: 100%; margin-top: 5px; padding: 5px;">
+                                <option value="1650">NVIDIA GeForce RTX 1650, 4GB GDDR5</option>
+                                <option value="1650-1">NVIDIA GeForce RTX 1650, 4GB GDDR6</option>
+                                <option value="1660 Ti">NVIDIA GeForce RTX 1660 Ti, 6GB GDDR6</option>
+                                <option value="1650 Ti">NVIDIA GeForce RTX 1650 Ti, 4GB GDDR6</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" id="submit1" name="submit1" 
+                                style="margin-top: 15px; width: 100%;"
+                                onclick="changeButtonText(event, 'submit1');">
+                            Order
+                        </button>
+                    </form>
+
+                    <script>
+        function changeButtonText(event, id) {
+            event.preventDefault(); // Prevent form submission
+            document.getElementById(id).innerText = "Ordered";
+        }
+    </script>
+                </div>
+
+</body>
+</html>

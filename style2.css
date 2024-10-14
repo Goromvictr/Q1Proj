@@ -1,0 +1,119 @@
+body{
+    background: url(https://dlcdnrog.asus.com/rog/media/1513879391415.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  	background-attachment: fixed;
+    border-radius: 15px;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#container0{
+	background-color: #700101;
+	text-align: center;
+	border-radius: 10px;
+	width: 300px;
+	height: 50px;
+}
+.container{
+	margin: 0px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 30px;
+}
+.container2 {
+	background-color: white;
+	width: 250px;
+	padding: 10px;
+	margin: auto;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+#order {
+	border-radius: 10px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+p{
+	color: #555;
+	font-size-adjust: 0.7;
+}
+.col-2 {
+    flex-basis: 50%;
+    padding: 10px;
+    min-width: 300px;
+}
+.col-2 img{
+    align-items: center;
+    padding: 50px 0;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    color: white;
+ 	font-family: "Poppins", sans-serif;
+  	font-weight: 600;
+  	font-style: normal;
+}
+.col-2 p{
+	color: white;
+}
+.row {
+    display: flex;
+    align-items: center; 
+    justify-content: space-around; 
+    padding: 20px;
+    margin: 0px;
+}
+.btn1{
+	display: inline-block;
+	background-color: darkred;
+	color: white;
+	padding: 8px 30px;
+	margin: 20px 0;
+	border-radius: 30px;
+}
+.header{
+	background: radial-gradient(#a60b00, #000000);
+	background-size: 100% 100%;
+}
+.header .row{
+	margin-top: 20px;
+}
+.col-md-3{
+	transition: transform 0.5s;
+	flex-basis: 25%;
+	padding: 10px;
+	min-width: 200px;
+	margin-bottom: 50px;
+}
+.col-md-3 img{
+	width: 100px;
+}
+.col-md-3:hover{
+	transform: translateY(-5px);
+}
